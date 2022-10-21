@@ -1,0 +1,33 @@
+//cuando haya una compra
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'purchase',
+  ecommerce: {
+    currency: 'EUR', //moneda
+    value: 109.29,  //valor
+    tax: 7.18,  
+    shipping: 10.00,
+    transaction_id: 'p115-20202000',
+    coupon: 'free_back_rub',
+    items: [{
+      item_name: 'Mat Online Verano',
+      item_id: 'mp1122',
+      price: '31.10',
+      item_metodologia: 'semi-presencial',
+      item_categoriaa: 'pilates',
+      item_nivel: 'profesional',
+      item_tipo: 'curso',
+      quantity: '1'
+    },{
+  item_name: 'Mat Online Verano',
+      item_id: 'mp1122',
+      price: '31.10',
+      item_metodologia: 'semi-presencial',
+      item_categoriaa: 'pilates',
+      item_nivel: 'profesional',
+      item_tipo: 'curso',
+      quantity: '1'
+    }]
+  }
+});
