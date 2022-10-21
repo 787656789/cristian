@@ -1,0 +1,10 @@
+//Debe activarse cuando un usuario se registra. 
+
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+'event': 'sign_up' //siempre sera el mismo valor
+'method': ' ' //El método por el cuál se ha registrado, por ejemplo 'Google'
+ });
+</script>
