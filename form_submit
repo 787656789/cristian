@@ -1,0 +1,11 @@
+// Este evento se debe activar cuando el formulario se envía correctamente. 
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+'event': 'form_submit' //siempre sera el mismo valor
+'form_id': ' ' //aquí deberá coger el id del formulario
+'form_name' : ' ' //aquí deberá coger el nombre del formulario
+'form_destination' : ' ' //aquí deberá coger la url de destino del formulario
+ });
+</script>
