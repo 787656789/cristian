@@ -14,19 +14,19 @@ window.dataLayer.push({
       item_name: 'Mat Online Verano',
       item_id: 'mp1122',
       price: '31.10',
-      item_metodologia: 'semi-presencial',
-      item_categoriaa: 'pilates',
-      item_nivel: 'profesional',
-      item_tipo: 'curso',
+      item_category: 'semi-presencial',
+      item_category2: 'pilates',
+      item_category3: 'profesional',
+      item_category4: 'curso',
       quantity: '1'
     },{
   item_name: 'Mat Online Verano',
       item_id: 'mp1122',
       price: '31.10',
-      item_metodologia: 'semi-presencial',
-      item_categoriaa: 'pilates',
-      item_nivel: 'profesional',
-      item_tipo: 'curso',
+       item_category: 'semi-presencial',
+      item_category2: 'pilates',
+      item_category3: 'profesional',
+      item_category4: 'curso',
       quantity: '1'
     }]
   }
